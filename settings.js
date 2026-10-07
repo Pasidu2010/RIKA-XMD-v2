@@ -5,11 +5,11 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "RIKA-XMD=YOUR-SESSION", // Add your session id
+SESSION_ID: process.env.SESSION_ID || "WpJxTLBL#MXnNu7T_-bauFYJ2tIfQrVk-NdlUCq_lJAsKCb4dXqM", // Add your session id
 PREFIX: process.env.PREFIX || ".",
-AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
-AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
-AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
+AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "false",
+AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
+AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 STATUS_REPLY_MSG: process.env.STATUS_REPLY_MSG || "*уσυя ѕтαтυѕ ѕєєη ву яιкα χм∂ 🌷🤍*",
 MODE: process.env.MODE || "public",
 AUTO_VOICE: process.env.AUTO_VOICE || "true",
